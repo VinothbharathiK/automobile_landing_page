@@ -2,16 +2,16 @@
 @media screen and (max-width:700px) {
     .homee{
         position: relative;
-       background-color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0,0.7);
+       height: auto;
+       overflow: visible;
     }
 
     .logo{
         margin-left: -20vw;
     }
 
-    .links a{
-        display: none;
-    }
+  
 
     .sign-up{
         display: none;
@@ -83,7 +83,7 @@
     background-image: none;
    margin-left: 10px;
    color: black;
-   text-shadow: 0px 0px 5px rgb(164, 164, 164);
+  
  
 }
 
@@ -120,6 +120,52 @@ footer div{
  padding-right: 10vw;
 }
    
+
+
+
+
+    .menu-toggle {
+        display: block;
+        margin-right: -25vw;
+    }
+
+    .links {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0,0.7);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 5px 0px 5px 0px;
+        border-radius: 10px;
+        z-index: 1000;
+        width: 100%;
+        text-align: center;
+      
+    }
+
+    .links.active {
+        display: flex;
+    }
+
+
+.overlay-text{
+    font-size: 1rem;
+}
+
+.vbk-name{
+    font-size: 1rem;
+}
+
+    
+.more-details{
+    font-size: 1rem !important;
+    background-color: rgb(128, 128, 128,0.7);
+
+}
+
+
+
 }
 
 @media screen and (max-width:900px){
@@ -139,13 +185,13 @@ footer div{
      }
     
     .car-section{
-        height: 80vh;
+        height: 650px;
         width: 95%;
         background-color: rgb(239, 235, 235) !important;
         background-image: none;
        margin-left: 10px;
-       color: black;
-       text-shadow: 0px 0px 5px rgb(164, 164, 164);
+       color: rgb(32, 32, 32);
+     
      
     }
     
@@ -161,7 +207,7 @@ footer div{
     }
     
     footer{
-        height:35vh;
+        height:250px;
     }
     footer div{
         width: 100%;
